@@ -1,8 +1,16 @@
 import "./Home.css";
-import { homeSection, coursesSection, tutorsSection } from "./DataHome";
+import {
+  homeSection,
+  coursesSection,
+  tutorsSection,
+  partnerSection,
+} from "./DataHome";
 import parse from "html-react-parser";
 import Tutors from "../Components/Tutors/Tutors";
-import {tutorsList} from "../Components/Tutors/DataTutors.jsx";
+import { tutorsList } from "../Components/Tutors/DataTutors.jsx";
+
+import Partners from "../Components/Partners/Partners.jsx"
+import { partnersList } from "../Components/Partners/DataPartner.jsx";
 
 function Home() {
   return (
@@ -22,8 +30,15 @@ function Home() {
       <section id="tutors">
         <div className="tengah">
           <div className="kolom">{parse(tutorsSection.content)}</div>
-
           <Tutors tutorsList={tutorsList} />
+        </div>
+      </section>
+
+      {/* partners */}
+      <section id="partners">
+        <div className="tengah">
+          <div className="kolom">{parse(partnerSection.content)}</div>
+          <Partners partnersList={partnersList} />
         </div>
       </section>
     </>
