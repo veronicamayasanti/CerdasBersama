@@ -8,13 +8,16 @@ import {
 import parse from "html-react-parser";
 import Tutors from "../Components/Tutors/Tutors";
 import { tutorsList } from "../Components/Tutors/DataTutors.jsx";
-
-import Partners from "../Components/Partners/Partners.jsx"
+import Partners from "../Components/Partners/Partners.jsx";
 import { partnersList } from "../Components/Partners/DataPartner.jsx";
-
+import Navbar from "../Components/Navbar/Navbar.jsx";
+import Footer from "../Components/Footer/Footer";
+import Contact from "../Components/Contact/Contact";
+import { contactSection } from "../Components/Contact/DataContact.jsx";
 function Home() {
   return (
     <>
+      <Navbar />
       {/* home */}
       <section id="home">
         <img src={homeSection.image} />
@@ -41,6 +44,8 @@ function Home() {
           <Partners partnersList={partnersList} />
         </div>
       </section>
+      <Contact contactSection={contactSection} />
+      <Footer />
     </>
   );
 }

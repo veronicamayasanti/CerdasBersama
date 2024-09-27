@@ -11,17 +11,13 @@ export const homeSection = {
 };
 
 export const coursesSection = {
-  content: `<p className="deskripsi">You Will Need This</p>
-          <h2>Online Courses</h2>
+  content: `
+          <h2>Kenapa Memilih Cerdas Bersama?</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-            deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis!
-            Delectus exercitationem dolores sapiente?
+            Pengajar Berpengalaman: Tim kami terdiri dari pengajar berpengalaman yang siap membantu siswa mencapai tujuan akademisnya.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-            deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis!
-            Delectus exercitationem dolores sapiente?
+            Materi Sesuai Kurikulum: Semua program kami disesuaikan dengan kurikulum sekolah, sehingga siswa tidak hanya memahami materi, tetapi juga siap menghadapi ujian.
           </p>
           <p>
             <a href="#" className="tbl-biru">
@@ -37,8 +33,7 @@ export const tutorsSection = {
   content: `<p className="deskripsi">Our Top Tutors</p>
             <h2>Tutors</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
-              optio!
+              Ini adalah para pengajar yang terbaik di CerdasBersama.
             </p>`
 };
 
@@ -46,8 +41,6 @@ export const partnerSection = {
   content: `<p className="deskripsi">Our Top Partners</p>
             <h2>Partners</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
-              magni tempore expedita sequi. Similique rerum doloremque impedit
-              saepe atque maxime.
+              Universitas yang menjadi partner bimbingan belajar CerdasBersama.
             </p>`
 };
